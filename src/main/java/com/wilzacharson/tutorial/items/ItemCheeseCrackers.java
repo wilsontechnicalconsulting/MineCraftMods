@@ -1,6 +1,7 @@
 package com.wilzacharson.tutorial.items;
 
 import com.wilzacharson.tutorial.Reference;
+import com.wilzacharson.tutorial.Tutorial;
 
 import net.minecraft.item.ItemFood;
 
@@ -10,6 +11,7 @@ public class ItemCheeseCrackers extends ItemFood {
 		super(4, 0.8f, true);
 		setUnlocalizedName(Reference.TutorialItems.CHEESE_AND_CRACKERS.getUnlocalizedName());
 		setRegistryName(Reference.TutorialItems.CHEESE_AND_CRACKERS.getRegistryName());
+		setCreativeTab(Tutorial.CREATIVE_TAB);
 		
 	}
 

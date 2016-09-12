@@ -11,3 +11,5 @@ item.marshmallow.name=MarshMallow
 
 tile.cheese.name=Cheese Block
 tile.smores.name=Smore's Block
+
+itemGroup.tabTutorial=Custom Tutorial Items
