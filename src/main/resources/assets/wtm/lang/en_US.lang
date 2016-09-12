@@ -1,8 +1,13 @@
 item.cheese.name=Cheese
 item.cracker.name=Cracker
 item.smores.name=Smore's
+item.cheese_and_crackers.name=Cheese and Crackers
+item.graham_cracker.name=Graham Crackers
+item.marshmallow.name=MarshMallow
+
 
 
 
 
 tile.cheese.name=Cheese Block
+tile.smores.name=Smore's Block

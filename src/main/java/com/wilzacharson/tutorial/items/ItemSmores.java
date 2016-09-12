@@ -3,10 +3,12 @@ package com.wilzacharson.tutorial.items;
 import com.wilzacharson.tutorial.Reference;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 
-public class ItemSmores extends Item {
+public class ItemSmores extends ItemFood {
 
 	public ItemSmores() {
+		super(4, 0.8f, true);
 		setUnlocalizedName(Reference.TutorialItems.SMORES.getUnlocalizedName());
 		setRegistryName(Reference.TutorialItems.SMORES.getRegistryName());
 		

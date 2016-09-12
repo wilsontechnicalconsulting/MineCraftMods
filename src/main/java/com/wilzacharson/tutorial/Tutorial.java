@@ -1,6 +1,7 @@
 package com.wilzacharson.tutorial;
 
 import com.wilzacharson.tutorial.init.ModBlocks;
+import com.wilzacharson.tutorial.init.ModCrafting;
 import com.wilzacharson.tutorial.init.ModItems;
 import com.wilzacharson.tutorial.proxy.CommonProxy;
 
@@ -36,6 +37,9 @@ public class Tutorial {
 	public void init(FMLInitializationEvent event) {
 		System.out.println(" Init");
 		proxy.init();
+		
+		
+		ModCrafting.register();
 	}
 	
 	@EventHandler

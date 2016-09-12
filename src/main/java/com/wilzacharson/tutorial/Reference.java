@@ -15,7 +15,11 @@ public class Reference {
 	public static enum TutorialItems {
 		CHEESE("cheese", "ItemCheese"),
 		CRACKER("cracker", "ItemCracker"),
-		SMORES("smores", "ItemSmores");
+		SMORES("smores", "ItemSmores"),
+		CHEESE_AND_CRACKERS("cheese_and_crackers", "ItemCheeseCrackers"),
+		MARSHMALLOW("marshmallow", "ItemMarshMallow"),
+		GRAHAM_CRACKER("graham_cracker", "ItemGrahamCracker");
+		
 		
 		private String unlocalizedName;
 		private String registryName;
@@ -35,9 +39,14 @@ public class Reference {
 		}
 		
 	}
+	/*
+	 * BLOCKS Build Below Here **************************
+	 */
+	
 	public static enum TutorialBlocks {
 		CHEESE("cheese", "BlockCheese"),
 		SMORES("smores", "BlockSmores");
+	
 		
 		
 		private String unlocalizedName;

@@ -8,6 +8,7 @@ import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import com.wilzacharson.tutorial.block.BlockCheese;
+
 import com.wilzacharson.tutorial.block.BlockSmores;
 //import com.wilzacharson.tutorial.items.ItemCheese;
 //import com.wilzacharson.tutorial.items.ItemCracker;
@@ -18,15 +19,18 @@ public class ModBlocks {
 	public static Block cheese;
 	public static Block smores;
 	
+	
 
 	public static void init() {
 		cheese = new BlockCheese();
 		smores = new BlockSmores();
+		
 	}
 	
 	public static void register() {
 		registerBlock(cheese);
 		registerBlock(smores);
+		
 	}
 	
 	private static void registerBlock(Block block) {
@@ -39,6 +43,7 @@ public class ModBlocks {
 	public static void registerRenders() {
 		registerRender(cheese);
 		registerRender(smores);
+		
 	}
 	
 	private static void registerRender(Block block) {
