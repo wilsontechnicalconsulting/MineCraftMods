@@ -36,7 +36,8 @@ public class Reference {
 		
 	}
 	public static enum TutorialBlocks {
-		CHEESE("cheese", "BlockCheese");
+		CHEESE("cheese", "BlockCheese"),
+		SMORES("smores", "BlockSmores");
 		
 		
 		private String unlocalizedName;

@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "wtm:blocks/cheese"
+        "all": "wtm:blocks/smores"
     }
  }
