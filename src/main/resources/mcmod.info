@@ -1,0 +1,15 @@
+[
+{
+  "modid": "wtm",
+  "name": "Wilzacharson Tutorial Mod",
+  "description": "Wilzacharson's Tutorial Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Wilzacharson"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
